@@ -42,7 +42,7 @@ function addTask(title) {
 function onUpdateIsDone(task) {
     console.log("チェックボックスがクリックされました。", task);
 
-    // 現在の状態を反転させる
+    // 変更
     task.isDone = !task.isDone;
 
     return task;
